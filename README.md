@@ -9,6 +9,7 @@ Other Style Guides
 
 ## Table of Contents
 
+  1. [Installing](#installing)
   1. [EditorConfig](#editorconfig)
   1. [Types](#types)
   1. [References](#references)
@@ -46,6 +47,12 @@ Other Style Guides
   1. [Chat With Us About JavaScript](#chat-with-us-about-javascript)
   1. [Contributors](#contributors)
   1. [License](#license)
+
+## Installing
+
+  To use this styleguide in your Playground XYZ project it should be included as an NPM package via the package.json file in the root of your project.
+
+    npm install https://github.com/playground-xyz/styleguide.git --save-dev
 
 ## EditorConfig
 
