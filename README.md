@@ -1,15 +1,15 @@
 # Playground XYZ Javascript Styleguide
 
-Forked from Airbnbs [Javascript Styleguide](https://github.com/airbnb/javascript).
+Forked from [Airbnb Javascript Styleguide](https://github.com/airbnb/javascript).
 
 Other Style Guides
  - [ES5](es5/)
  - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
+ - [CSS](css/)
 
 ## Table of Contents
 
+  1. [EditorConfig](#editorconfig)
   1. [Types](#types)
   1. [References](#references)
   1. [Objects](#objects)
@@ -46,6 +46,26 @@ Other Style Guides
   1. [Chat With Us About JavaScript](#chat-with-us-about-javascript)
   1. [Contributors](#contributors)
   1. [License](#license)
+
+## EditorConfig
+
+[EditorConfig](http://editorconfig.org/) helps developers maintain consistent coding styles between different editors.
+
+List of plugins for common text editors:
+
+  - Sublime Plugin: [sindresorhus/editorconfig-sublime](https://github.com/sindresorhus/editorconfig-sublime) (Requires restart)
+  - Atom Plugin: [sindresorhus/atom-editorconfig](https://github.com/sindresorhus/atom-editorconfig)
+  - Vim Plugin: [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)
+ 
+To use we recommend creating a symlink at the root level of your project `.editorconfig` that links to `node_modules/styleguide/.editorconfig` so you automatically get the required updates
+
+Example symlink command (From within the root of your project):
+
+    ln -s node_modules/styleguide/.editorconfig .editorconfig
+
+### Common Problems
+
+[editorconfig/wiki/FAQ](https://github.com/editorconfig/editorconfig/wiki/FAQ)
 
 ## Types
 
