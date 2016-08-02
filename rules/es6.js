@@ -90,7 +90,7 @@ module.exports = {
 
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': [2, {
-      allowNamedFunctions: false,
+      allowNamedFunctions: true,
       allowUnboundThis: true,
     }],
 

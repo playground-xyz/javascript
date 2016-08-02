@@ -2,10 +2,6 @@
   "name": "styleguide",
   "version": "1.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
-  "scripts": {
-    "preinstall": "npm run install:config:base",
-    "install:config:base": "cd packages/eslint-config-base && npm prune && npm install"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/playground-xyz/styleguide.git"

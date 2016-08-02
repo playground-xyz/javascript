@@ -148,7 +148,7 @@ module.exports = {
 
     // disallow reassignment of function parameters
     // rule: http://eslint.org/docs/rules/no-param-reassign.html
-    'no-param-reassign': [2, { props: false }],
+    'no-param-reassign': 0,
 
     // disallow usage of __proto__ property
     'no-proto': 2,
