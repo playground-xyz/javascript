@@ -1,17 +1,17 @@
 module.exports = {
   extends: [
+    'eslint:recommended',
     './rules/best-practices',
     './rules/errors',
     './rules/node',
     './rules/style',
-    './rules/variables'
+    './rules/variables',
+    './rules/imports'
   ].map(require.resolve),
   env: {
     browser: true,
     node: true,
-    amd: false,
-    mocha: false,
-    jasmine: false
+    mocha: true
   },
   ecmaFeatures: {},
   globals: {},
