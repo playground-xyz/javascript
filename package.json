@@ -1,5 +1,5 @@
 {
-  "name": "styleguide",
+  "name": "@playgroundxyz/styleguide",
   "version": "1.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
   "repository": {
@@ -14,8 +14,8 @@
     "react",
     "jsx"
   ],
-  "dependencies": [],
-  "devDependencies": {
+  "devDependencies": [],
+  "dependencies": {
     "eslint": "^2.13.1",
     "eslint-find-rules": "^1.10.0",
     "eslint-plugin-import": "^1.8.1"
